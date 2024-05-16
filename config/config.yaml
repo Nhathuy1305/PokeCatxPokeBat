@@ -1,0 +1,3 @@
+server_address: "localhost:8080"
+pokeworld_size: 1000
+pokemon_wave: 50
