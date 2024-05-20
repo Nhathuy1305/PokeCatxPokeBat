@@ -1,0 +1,7602 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 2,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 3,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 4,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 5,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 6,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 7,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 8,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 9,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 10,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 11,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 12,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 13,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 14,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 15,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 16,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 17,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 18,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 19,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 20,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 21,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 22,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 23,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 24,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 25,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 26,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 27,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 28,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 29,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 30,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 31,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 32,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 33,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 34,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 35,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 36,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 37,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 38,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 39,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 40,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 41,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 42,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 43,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 44,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 45,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 46,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 47,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 48,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 49,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 50,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 51,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 52,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 53,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 54,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 55,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 56,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 57,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 58,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 59,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 60,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 61,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 62,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 63,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 64,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 65,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 66,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 67,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 68,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 69,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 70,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 71,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 72,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 73,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 74,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 75,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 76,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 77,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 78,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 79,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 80,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 81,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 82,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 83,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 84,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 85,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 86,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 87,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 88,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 89,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 90,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 91,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 92,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 93,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 94,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 95,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 96,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 97,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 98,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 99,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 100,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 101,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 102,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 103,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 104,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 105,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 106,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 107,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 108,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 109,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 110,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 111,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 112,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 113,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 114,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 115,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 116,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 117,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 118,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 119,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 120,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 121,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 122,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 123,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 124,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 125,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 126,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 127,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 128,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 129,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 130,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 131,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 132,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 133,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 134,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 135,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 136,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 137,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 138,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 139,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 140,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 141,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 142,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 143,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 144,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 145,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 146,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 147,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 148,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 149,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 150,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 151,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 152,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 153,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 154,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 155,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 156,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 157,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 158,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 159,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 160,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 161,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 162,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 163,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 164,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 165,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 166,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 167,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 168,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 169,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 170,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 171,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 172,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 173,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 174,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 175,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 176,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 177,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 178,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 179,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 180,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 181,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 182,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 183,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 184,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 185,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 186,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 187,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 188,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 189,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 190,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 191,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 192,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 193,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 194,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 195,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 196,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 197,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 198,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 199,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  },
+  {
+    "id": 200,
+    "name": "Bulbasaur",
+    "types": [
+      "grass",
+      "poison",
+      "ice",
+      "electric",
+      "ground",
+      "fairy",
+      "psychic",
+      "water",
+      "fire",
+      "fighting",
+      "flying",
+      "grass"
+    ],
+    "stats": {
+      "Attack": 49,
+      "Defense": 49,
+      "HP": 45,
+      "Sp Atk": 65,
+      "Sp Def": 65,
+      "Speed": 45
+    },
+    "damage_multipliers": {
+      "electric": 0.5,
+      "fairy": 0.5,
+      "fighting": 0.5,
+      "fire": 2,
+      "flying": 2,
+      "grass": 0.25,
+      "ground": 2,
+      "ice": 2,
+      "psychic": 2,
+      "water": 0.5
+    }
+  }
+]
