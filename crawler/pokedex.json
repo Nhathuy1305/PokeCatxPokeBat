@@ -1,0 +1,134 @@
+[
+  {
+    "id": "",
+    "name": "",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "Attack": "49",
+      "Defense": "49",
+      "HP": "45",
+      "Sp Atk": "65",
+      "Sp Def": "65",
+      "Speed": "45"
+    },
+    "damage_multipliers": {
+      "electric": "0.5x",
+      "fairy": "0.5x",
+      "fighting": "0.5x",
+      "fire": "2x",
+      "flying": "2x",
+      "grass": "0.25x",
+      "ground": "2x",
+      "ice": "2x",
+      "psychic": "2x",
+      "water": "0.5x"
+    }
+  },
+  {
+    "id": "#2",
+    "name": "Ivysaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "Attack": "62",
+      "Defense": "63",
+      "HP": "60",
+      "Sp Atk": "80",
+      "Sp Def": "80",
+      "Speed": "60"
+    },
+    "damage_multipliers": {
+      "electric": "0.5x",
+      "fairy": "0.5x",
+      "fighting": "0.5x",
+      "fire": "2x",
+      "flying": "2x",
+      "grass": "0.25x",
+      "ground": "2x",
+      "ice": "2x",
+      "psychic": "2x",
+      "water": "0.5x"
+    }
+  },
+  {
+    "id": "#3",
+    "name": "Venusaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "Attack": "82",
+      "Defense": "83",
+      "HP": "80",
+      "Sp Atk": "100",
+      "Sp Def": "100",
+      "Speed": "80"
+    },
+    "damage_multipliers": {
+      "electric": "0.5x",
+      "fairy": "0.5x",
+      "fighting": "0.5x",
+      "fire": "2x",
+      "flying": "2x",
+      "grass": "0.25x",
+      "ground": "2x",
+      "ice": "2x",
+      "psychic": "2x",
+      "water": "0.5x"
+    }
+  },
+  {
+    "id": "#4",
+    "name": "Charmander",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "Attack": "52",
+      "Defense": "43",
+      "HP": "39",
+      "Sp Atk": "60",
+      "Sp Def": "50",
+      "Speed": "65"
+    },
+    "damage_multipliers": {
+      "fairy": "0.5x",
+      "fire": "0.5x",
+      "ground": "2x",
+      "ice": "0.5x",
+      "rock": "2x",
+      "steel": "0.5x",
+      "water": "2x"
+    }
+  },
+  {
+    "id": "#5",
+    "name": "Charmeleon",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "Attack": "64",
+      "Defense": "58",
+      "HP": "58",
+      "Sp Atk": "80",
+      "Sp Def": "65",
+      "Speed": "80"
+    },
+    "damage_multipliers": {
+      "fairy": "0.5x",
+      "fire": "0.5x",
+      "ground": "2x",
+      "ice": "0.5x",
+      "rock": "2x",
+      "steel": "0.5x",
+      "water": "2x"
+    }
+  }
+]
