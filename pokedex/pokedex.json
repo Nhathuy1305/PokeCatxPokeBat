@@ -1,7 +1,7 @@
 [
   {
-    "id": "",
-    "name": "",
+    "id": "1",
+    "name": "Bulbasaur",
     "types": [
       "grass",
       "poison"
@@ -28,7 +28,7 @@
     }
   },
   {
-    "id": "#2",
+    "id": "2",
     "name": "Ivysaur",
     "types": [
       "grass",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "id": "#3",
+    "id": "3",
     "name": "Venusaur",
     "types": [
       "grass",
@@ -81,54 +81,6 @@
       "ice": "2x",
       "psychic": "2x",
       "water": "0.5x"
-    }
-  },
-  {
-    "id": "#4",
-    "name": "Charmander",
-    "types": [
-      "fire"
-    ],
-    "stats": {
-      "Attack": "52",
-      "Defense": "43",
-      "HP": "39",
-      "Sp Atk": "60",
-      "Sp Def": "50",
-      "Speed": "65"
-    },
-    "damage_multipliers": {
-      "fairy": "0.5x",
-      "fire": "0.5x",
-      "ground": "2x",
-      "ice": "0.5x",
-      "rock": "2x",
-      "steel": "0.5x",
-      "water": "2x"
-    }
-  },
-  {
-    "id": "#5",
-    "name": "Charmeleon",
-    "types": [
-      "fire"
-    ],
-    "stats": {
-      "Attack": "64",
-      "Defense": "58",
-      "HP": "58",
-      "Sp Atk": "80",
-      "Sp Def": "65",
-      "Speed": "80"
-    },
-    "damage_multipliers": {
-      "fairy": "0.5x",
-      "fire": "0.5x",
-      "ground": "2x",
-      "ice": "0.5x",
-      "rock": "2x",
-      "steel": "0.5x",
-      "water": "2x"
     }
   }
 ]

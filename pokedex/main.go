@@ -31,13 +31,21 @@ func main() {
 	var pokemons []Pokemon
 
 	// Navigate and extract data
-	for i := 1; i <= 5; i++ {
+	for i := 1; i <= 3; i++ {
 		var pokemon Pokemon
 		err := chromedp.Run(ctx,
 			chromedp.Navigate(fmt.Sprintf("https://pokedex.org/#/pokemon/%d", i)),
-			chromedp.Sleep(5*time.Second), // Increase wait time
-			chromedp.Text(".detail-header .detail-national-id", &pokemon.ID),
-			chromedp.Text(".detail-panel-header", &pokemon.Name),
+			chromedp.Sleep(5*time.Second),
+			chromedp.Evaluate(`
+				var id = document.querySelector(".detail-header .detail-national-id").innerText;
+				id = id.replace("#", "");
+				id;
+			`, &pokemon.ID),
+			chromedp.Evaluate(`
+				var name = document.querySelector(".detail-panel-header").innerText;
+				name;
+			`, &pokemon.Name),
+			// chromedp.Text(".detail-panel-header", &pokemon.Name),
 			chromedp.Evaluate(`
 				Array.from(document.querySelectorAll('.detail-types span.monster-type')).map(elem => elem.innerText);
 			`, &pokemon.Types),
