@@ -28,13 +28,13 @@ func main() {
 	defer cancel()
 
 	// Extend the timeout for our operations to 120 seconds
-	ctx, cancel = context.WithTimeout(ctx, 60*time.Second)
+	ctx, cancel = context.WithTimeout(ctx, 900*time.Second)
 	defer cancel()
 
 	var pokemons []Pokemon
 
 	// Navigate and extract data from pokedex.org
-	for i := 1; i <= 3; i++ {
+	for i := 1; i <= 30; i++ {
 		var pokemon Pokemon
 		err := chromedp.Run(ctx,
 			chromedp.Navigate(fmt.Sprintf("https://pokedex.org/#/pokemon/%d", i)),

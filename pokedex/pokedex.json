@@ -85,5 +85,680 @@
       "water": "0.5x"
     },
     "exp": "263"
+  },
+  {
+    "id": "4",
+    "name": "Charmander",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "Attack": "52",
+      "Defense": "43",
+      "HP": "39",
+      "Sp Atk": "60",
+      "Sp Def": "50",
+      "Speed": "65"
+    },
+    "damage_multipliers": {
+      "fairy": "0.5x",
+      "fire": "0.5x",
+      "ground": "2x",
+      "ice": "0.5x",
+      "rock": "2x",
+      "steel": "0.5x",
+      "water": "2x"
+    },
+    "exp": "62"
+  },
+  {
+    "id": "5",
+    "name": "Charmeleon",
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "Attack": "64",
+      "Defense": "58",
+      "HP": "58",
+      "Sp Atk": "80",
+      "Sp Def": "65",
+      "Speed": "80"
+    },
+    "damage_multipliers": {
+      "fairy": "0.5x",
+      "fire": "0.5x",
+      "ground": "2x",
+      "ice": "0.5x",
+      "rock": "2x",
+      "steel": "0.5x",
+      "water": "2x"
+    },
+    "exp": "142"
+  },
+  {
+    "id": "6",
+    "name": "Charizard",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "Attack": "84",
+      "Defense": "78",
+      "HP": "78",
+      "Sp Atk": "109",
+      "Sp Def": "85",
+      "Speed": "100"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "electric": "2x",
+      "fairy": "0.5x",
+      "fighting": "0.5x",
+      "fire": "0.5x",
+      "grass": "0.5x",
+      "ground": "2x",
+      "rock": "4x",
+      "steel": "0.5x",
+      "water": "2x"
+    },
+    "exp": "267"
+  },
+  {
+    "id": "7",
+    "name": "Squirtle",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "Attack": "48",
+      "Defense": "65",
+      "HP": "44",
+      "Sp Atk": "50",
+      "Sp Def": "64",
+      "Speed": "43"
+    },
+    "damage_multipliers": {
+      "electric": "2x",
+      "fire": "0.5x",
+      "grass": "2x",
+      "ice": "0.5x",
+      "steel": "0.5x",
+      "water": "0.5x"
+    },
+    "exp": "63"
+  },
+  {
+    "id": "8",
+    "name": "Wartortle",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "Attack": "63",
+      "Defense": "80",
+      "HP": "59",
+      "Sp Atk": "65",
+      "Sp Def": "80",
+      "Speed": "58"
+    },
+    "damage_multipliers": {
+      "electric": "2x",
+      "fire": "0.5x",
+      "grass": "2x",
+      "ice": "0.5x",
+      "steel": "0.5x",
+      "water": "0.5x"
+    },
+    "exp": "142"
+  },
+  {
+    "id": "9",
+    "name": "Blastoise",
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "Attack": "83",
+      "Defense": "100",
+      "HP": "79",
+      "Sp Atk": "85",
+      "Sp Def": "105",
+      "Speed": "78"
+    },
+    "damage_multipliers": {
+      "electric": "2x",
+      "fire": "0.5x",
+      "grass": "2x",
+      "ice": "0.5x",
+      "steel": "0.5x",
+      "water": "0.5x"
+    },
+    "exp": "265"
+  },
+  {
+    "id": "10",
+    "name": "Caterpie",
+    "types": [
+      "bug"
+    ],
+    "stats": {
+      "Attack": "30",
+      "Defense": "35",
+      "HP": "45",
+      "Sp Atk": "20",
+      "Sp Def": "20",
+      "Speed": "45"
+    },
+    "damage_multipliers": {
+      "fighting": "0.5x",
+      "fire": "2x",
+      "flying": "2x",
+      "grass": "0.5x",
+      "ground": "0.5x",
+      "rock": "2x"
+    },
+    "exp": "39"
+  },
+  {
+    "id": "11",
+    "name": "Metapod",
+    "types": [
+      "bug"
+    ],
+    "stats": {
+      "Attack": "20",
+      "Defense": "55",
+      "HP": "50",
+      "Sp Atk": "25",
+      "Sp Def": "25",
+      "Speed": "30"
+    },
+    "damage_multipliers": {
+      "fighting": "0.5x",
+      "fire": "2x",
+      "flying": "2x",
+      "grass": "0.5x",
+      "ground": "0.5x",
+      "rock": "2x"
+    },
+    "exp": "72"
+  },
+  {
+    "id": "12",
+    "name": "Butterfree",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "stats": {
+      "Attack": "45",
+      "Defense": "50",
+      "HP": "60",
+      "Sp Atk": "90",
+      "Sp Def": "80",
+      "Speed": "70"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "electric": "2x",
+      "fighting": "0.25x",
+      "fire": "2x",
+      "flying": "2x",
+      "grass": "0.25x",
+      "ground": "0.5x",
+      "ice": "2x",
+      "rock": "4x"
+    },
+    "exp": "198"
+  },
+  {
+    "id": "13",
+    "name": "Weedle",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "Attack": "35",
+      "Defense": "30",
+      "HP": "40",
+      "Sp Atk": "20",
+      "Sp Def": "20",
+      "Speed": "50"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "fairy": "0.5x",
+      "fighting": "0.25x",
+      "fire": "2x",
+      "flying": "2x",
+      "grass": "0.25x",
+      "poison": "0.5x",
+      "psychic": "2x",
+      "rock": "2x"
+    },
+    "exp": "39"
+  },
+  {
+    "id": "14",
+    "name": "Kakuna",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "Attack": "25",
+      "Defense": "50",
+      "HP": "45",
+      "Sp Atk": "25",
+      "Sp Def": "25",
+      "Speed": "35"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "fairy": "0.5x",
+      "fighting": "0.25x",
+      "fire": "2x",
+      "flying": "2x",
+      "grass": "0.25x",
+      "poison": "0.5x",
+      "psychic": "2x",
+      "rock": "2x"
+    },
+    "exp": "72"
+  },
+  {
+    "id": "15",
+    "name": "Beedrill",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "Attack": "90",
+      "Defense": "40",
+      "HP": "65",
+      "Sp Atk": "45",
+      "Sp Def": "80",
+      "Speed": "75"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "fairy": "0.5x",
+      "fighting": "0.25x",
+      "fire": "2x",
+      "flying": "2x",
+      "grass": "0.25x",
+      "poison": "0.5x",
+      "psychic": "2x",
+      "rock": "2x"
+    },
+    "exp": "198"
+  },
+  {
+    "id": "16",
+    "name": "Pidgey",
+    "types": [
+      "flying",
+      "normal"
+    ],
+    "stats": {
+      "Attack": "45",
+      "Defense": "40",
+      "HP": "40",
+      "Sp Atk": "35",
+      "Sp Def": "35",
+      "Speed": "56"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "electric": "2x",
+      "ghost": "0x",
+      "grass": "0.5x",
+      "ground": "0x",
+      "ice": "2x",
+      "rock": "2x"
+    },
+    "exp": "50"
+  },
+  {
+    "id": "17",
+    "name": "Pidgeotto",
+    "types": [
+      "flying",
+      "normal"
+    ],
+    "stats": {
+      "Attack": "60",
+      "Defense": "55",
+      "HP": "63",
+      "Sp Atk": "50",
+      "Sp Def": "50",
+      "Speed": "71"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "electric": "2x",
+      "ghost": "0x",
+      "grass": "0.5x",
+      "ground": "0x",
+      "ice": "2x",
+      "rock": "2x"
+    },
+    "exp": "122"
+  },
+  {
+    "id": "18",
+    "name": "Pidgeot",
+    "types": [
+      "flying",
+      "normal"
+    ],
+    "stats": {
+      "Attack": "80",
+      "Defense": "75",
+      "HP": "83",
+      "Sp Atk": "70",
+      "Sp Def": "70",
+      "Speed": "101"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "electric": "2x",
+      "ghost": "0x",
+      "grass": "0.5x",
+      "ground": "0x",
+      "ice": "2x",
+      "rock": "2x"
+    },
+    "exp": "240"
+  },
+  {
+    "id": "19",
+    "name": "Rattata",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "Attack": "56",
+      "Defense": "35",
+      "HP": "30",
+      "Sp Atk": "25",
+      "Sp Def": "35",
+      "Speed": "72"
+    },
+    "damage_multipliers": {
+      "fighting": "2x",
+      "ghost": "0x"
+    },
+    "exp": "51"
+  },
+  {
+    "id": "20",
+    "name": "Raticate",
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "Attack": "81",
+      "Defense": "60",
+      "HP": "55",
+      "Sp Atk": "50",
+      "Sp Def": "70",
+      "Speed": "97"
+    },
+    "damage_multipliers": {
+      "fighting": "2x",
+      "ghost": "0x"
+    },
+    "exp": "145"
+  },
+  {
+    "id": "21",
+    "name": "Spearow",
+    "types": [
+      "flying",
+      "normal"
+    ],
+    "stats": {
+      "Attack": "60",
+      "Defense": "30",
+      "HP": "40",
+      "Sp Atk": "31",
+      "Sp Def": "31",
+      "Speed": "70"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "electric": "2x",
+      "ghost": "0x",
+      "grass": "0.5x",
+      "ground": "0x",
+      "ice": "2x",
+      "rock": "2x"
+    },
+    "exp": "52"
+  },
+  {
+    "id": "22",
+    "name": "Fearow",
+    "types": [
+      "flying",
+      "normal"
+    ],
+    "stats": {
+      "Attack": "90",
+      "Defense": "65",
+      "HP": "65",
+      "Sp Atk": "61",
+      "Sp Def": "61",
+      "Speed": "100"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "electric": "2x",
+      "ghost": "0x",
+      "grass": "0.5x",
+      "ground": "0x",
+      "ice": "2x",
+      "rock": "2x"
+    },
+    "exp": "155"
+  },
+  {
+    "id": "23",
+    "name": "Ekans",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "Attack": "60",
+      "Defense": "44",
+      "HP": "35",
+      "Sp Atk": "40",
+      "Sp Def": "54",
+      "Speed": "55"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "fairy": "0.5x",
+      "fighting": "0.5x",
+      "grass": "0.5x",
+      "ground": "2x",
+      "poison": "0.5x",
+      "psychic": "2x"
+    },
+    "exp": "58"
+  },
+  {
+    "id": "24",
+    "name": "Arbok",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "Attack": "85",
+      "Defense": "69",
+      "HP": "60",
+      "Sp Atk": "65",
+      "Sp Def": "79",
+      "Speed": "80"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "fairy": "0.5x",
+      "fighting": "0.5x",
+      "grass": "0.5x",
+      "ground": "2x",
+      "poison": "0.5x",
+      "psychic": "2x"
+    },
+    "exp": "157"
+  },
+  {
+    "id": "25",
+    "name": "Pikachu",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "Attack": "55",
+      "Defense": "40",
+      "HP": "35",
+      "Sp Atk": "50",
+      "Sp Def": "50",
+      "Speed": "90"
+    },
+    "damage_multipliers": {
+      "electric": "0.5x",
+      "flying": "0.5x",
+      "ground": "2x",
+      "steel": "0.5x"
+    },
+    "exp": "112"
+  },
+  {
+    "id": "26",
+    "name": "Raichu",
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "Attack": "90",
+      "Defense": "55",
+      "HP": "60",
+      "Sp Atk": "90",
+      "Sp Def": "80",
+      "Speed": "110"
+    },
+    "damage_multipliers": {
+      "electric": "0.5x",
+      "flying": "0.5x",
+      "ground": "2x",
+      "steel": "0.5x"
+    },
+    "exp": "243"
+  },
+  {
+    "id": "27",
+    "name": "Sandshrew",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "Attack": "75",
+      "Defense": "85",
+      "HP": "50",
+      "Sp Atk": "20",
+      "Sp Def": "30",
+      "Speed": "40"
+    },
+    "damage_multipliers": {
+      "electric": "0x",
+      "grass": "2x",
+      "ground": "0.5x",
+      "ice": "2x",
+      "poison": "0.5x",
+      "rock": "0.5x",
+      "water": "2x"
+    },
+    "exp": "60"
+  },
+  {
+    "id": "28",
+    "name": "Sandslash",
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "Attack": "100",
+      "Defense": "110",
+      "HP": "75",
+      "Sp Atk": "45",
+      "Sp Def": "55",
+      "Speed": "65"
+    },
+    "damage_multipliers": {
+      "electric": "0x",
+      "grass": "2x",
+      "ground": "0.5x",
+      "ice": "2x",
+      "poison": "0.5x",
+      "rock": "0.5x",
+      "water": "2x"
+    },
+    "exp": "158"
+  },
+  {
+    "id": "29",
+    "name": "Nidoran ♀",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "Attack": "47",
+      "Defense": "52",
+      "HP": "55",
+      "Sp Atk": "40",
+      "Sp Def": "40",
+      "Speed": "41"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "fairy": "0.5x",
+      "fighting": "0.5x",
+      "grass": "0.5x",
+      "ground": "2x",
+      "poison": "0.5x",
+      "psychic": "2x"
+    },
+    "exp": "55"
+  },
+  {
+    "id": "30",
+    "name": "Nidorina",
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "Attack": "62",
+      "Defense": "67",
+      "HP": "70",
+      "Sp Atk": "55",
+      "Sp Def": "55",
+      "Speed": "56"
+    },
+    "damage_multipliers": {
+      "bug": "0.5x",
+      "fairy": "0.5x",
+      "fighting": "0.5x",
+      "grass": "0.5x",
+      "ground": "2x",
+      "poison": "0.5x",
+      "psychic": "2x"
+    },
+    "exp": "128"
   }
 ]
