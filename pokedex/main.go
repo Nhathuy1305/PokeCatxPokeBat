@@ -6,9 +6,11 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strings"
 	"time"
 
 	"github.com/chromedp/chromedp"
+	"github.com/gocolly/colly"
 )
 
 type Pokemon struct {
@@ -25,7 +27,7 @@ func main() {
 	ctx, cancel := chromedp.NewContext(context.Background())
 	defer cancel()
 
-	// Timeout for our operations
+	// Extend the timeout for our operations to 120 seconds
 	ctx, cancel = context.WithTimeout(ctx, 60*time.Second)
 	defer cancel()
 
@@ -62,28 +64,32 @@ func main() {
 		fmt.Printf("Crawled data for Pokemon ID %d\n", i)
 	}
 
-	// Extract EXP data from Bulbapedia
-	var expData [][2]string
-	err := chromedp.Run(ctx,
-		chromedp.Navigate("https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_effort_value_yield_(Generation_IX)"),
-		chromedp.Sleep(5*time.Second),
-		chromedp.Evaluate(`
-			Array.from(document.querySelectorAll('table.roundy tbody tr')).slice(1).map(row => {
-				const cols = row.querySelectorAll('td');
-				const id = cols[0]?.innerText.trim().replace(/^0+/, '');
-				const exp = cols[3]?.innerText.trim();
-				return id && exp ? [id, exp] : null;
-			}).filter(entry => entry !== null)`, &expData),
+	// Create a new collector
+	c := colly.NewCollector(
+		colly.AllowedDomains("bulbapedia.bulbagarden.net"),
 	)
-	if err != nil {
-		log.Fatalf("Failed to extract EXP data from Bulbapedia: %v", err)
-	}
 
-	// Convert extracted data to a map
+	// Create a map to hold the EXP data
 	expMap := make(map[string]string)
-	for _, entry := range expData {
-		expMap[entry[0]] = entry[1]
-	}
+
+	// On every row in the table, except for the header
+	c.OnHTML("table.roundy tbody tr:not(:first-child)", func(e *colly.HTMLElement) {
+		id := strings.Trim(e.ChildText("td:nth-child(1)"), "\n ")
+		exp := strings.Trim(e.ChildText("td:nth-child(4)"), "\n ")
+		id = strings.TrimLeft(id, "0") // Remove leading zeros
+
+		if id != "" && exp != "" {
+			expMap[id] = exp
+		}
+	})
+
+	// Handle errors
+	c.OnError(func(_ *colly.Response, err error) {
+		log.Println("Something went wrong:", err)
+	})
+
+	// Visit the page
+	c.Visit("https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_effort_value_yield_(Generation_IX)")
 
 	// Merge EXP data with existing Pokémon data
 	for i := range pokemons {
