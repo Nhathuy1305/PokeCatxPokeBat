@@ -14,12 +14,12 @@ import (
 )
 
 type Pokemon struct {
-	ID                string            `json:"id"`
-	Name              string            `json:"name"`
-	Types             []string          `json:"types"`
-	Stats             map[string]string `json:"stats"`
-	DamageMultipliers map[string]string `json:"damage_multipliers"`
-	EXP               string            `json:"exp"`
+	ID    string            `json:"id"`
+	Name  string            `json:"name"`
+	Types []string          `json:"types"`
+	Stats map[string]string `json:"stats"`
+	// DamageMultipliers map[string]string `json:"damage_multipliers"`
+	EXP string `json:"exp"`
 }
 
 func main() {
@@ -34,7 +34,7 @@ func main() {
 	var pokemons []Pokemon
 
 	// Navigate and extract data from pokedex.org
-	for i := 1; i <= 30; i++ {
+	for i := 1; i <= 100; i++ {
 		var pokemon Pokemon
 		err := chromedp.Run(ctx,
 			chromedp.Navigate(fmt.Sprintf("https://pokedex.org/#/pokemon/%d", i)),
@@ -47,15 +47,15 @@ func main() {
 				const value = row.querySelector('.stat-bar-fg').innerText;
 				return [label, value];
 			}))`, &pokemon.Stats),
-			chromedp.Evaluate(`Object.fromEntries(Array.from(document.querySelectorAll('.when-attacked-row')).map(row => {
-				const types = row.querySelectorAll('span.monster-type');
-				const multipliers = row.querySelectorAll('span.monster-multiplier');
-				return Array.from(types).map((type, index) => {
-					const key = type.innerText.trim();
-					const value = multipliers[index]?.innerText.trim() || '';
-					return key && value ? [key, value] : null;
-				}).filter(pair => pair !== null);
-			}).flat())`, &pokemon.DamageMultipliers),
+			// chromedp.Evaluate(`Object.fromEntries(Array.from(document.querySelectorAll('.when-attacked-row')).map(row => {
+			// 	const types = row.querySelectorAll('span.monster-type');
+			// 	const multipliers = row.querySelectorAll('span.monster-multiplier');
+			// 	return Array.from(types).map((type, index) => {
+			// 		const key = type.innerText.trim();
+			// 		const value = multipliers[index]?.innerText.trim() || '';
+			// 		return key && value ? [key, value] : null;
+			// 	}).filter(pair => pair !== null);
+			// }).flat())`, &pokemon.DamageMultipliers),
 		)
 		if err != nil {
 			log.Fatalf("Failed to extract data for ID %d: %v", i, err)
