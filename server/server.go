@@ -152,6 +152,7 @@ func handlePokemons() {
 			//CUT OFF THE FIRST 3 ELEMENTS or 50
 			despawnQueues = despawnQueues[NUMBERTOPROCESS:]
 			sent, _ := json.Marshal(despawnedPokemonLocations)
+
 			for _, tcpConn := range CONNECTIONS {
 				tcpConn.Write([]byte(sent))
 			}
@@ -163,6 +164,8 @@ func battle(player1 string, player2 string) {
 	fmt.Println(player1, " vs ", player2)
 
 }
+
+var player1Turn = true
 
 // HandleConnection handles incoming client connections
 func HandleConnection(conn net.Conn) {
@@ -210,7 +213,9 @@ func HandleConnection(conn net.Conn) {
 		//battling message
 		if strings.Split(player_coord, "-")[0] == "battle" {
 			P := strings.Split(player_coord, "-")[1]
-			main_message := strings.Split(player_coord, "-")[2]
+
+			main_message := strings.TrimSpace(strings.Split(player_coord, "-")[2])
+
 			turn := make(map[string]string)
 			//submit pokemons
 			if isNumber(main_message) {
@@ -230,22 +235,69 @@ func HandleConnection(conn net.Conn) {
 
 				if len(pokeBalls_P1) == 3 && len(pokeBalls_P2) == 3 {
 					fmt.Println("Let's Battle!")
-					CONNECTIONS[P1].Write([]byte("ready"))
-					CONNECTIONS[P2].Write([]byte("ready"))
+
 					speed_P1, _ := strconv.Atoi(pokeBalls_P1[0].Stats["Speed"])
 					speed_P2, _ := strconv.Atoi(pokeBalls_P2[0].Stats["Speed"])
+					wait := make(map[string]string)
+					wait["battle"] = "wait"
+					sentWait, _ := json.Marshal(wait)
 					if speed_P1 >= speed_P2 {
+						fmt.Println("P1 turn")
 						//sent message to p1 to go first
 						turn["battle"] = P1
+						sentTurn, _ := json.Marshal(turn)
+						CONNECTIONS[P1].Write([]byte(sentTurn))
+
+						CONNECTIONS[P2].Write([]byte(sentWait))
 					} else {
+						fmt.Println("P2 turn")
 						//sent message to p2 to go first
 						turn["battle"] = P2
+						sentTurn, _ := json.Marshal(turn)
+						CONNECTIONS[P2].Write([]byte(sentTurn))
+
+						CONNECTIONS[P1].Write([]byte(sentWait))
+
+						player1Turn = false
 					}
 				}
+				//not submitting means movement
+			} else if len(strings.Split(main_message, "*")) == 2 {
+				currentPokemon, _ := strconv.Atoi(strings.Split(main_message, "*")[0])
+				action := strings.TrimSpace(strings.Split(main_message, "*")[1])
+				if player1Turn {
+					if action == "attack" {
+						attackedPokemonIndex := rand.Intn(3)
+
+						P2_HP, _ := strconv.Atoi(pokeBalls_P2[attackedPokemonIndex].Stats["HP"])
+
+						spec_attk := rand.Intn(1)
+
+						if spec_attk == 1 {
+							P1_Damage, _ := strconv.Atoi(pokeBalls_P1[currentPokemon].Stats["Sp Atk"])
+							P2_Defense, _ := strconv.Atoi(pokeBalls_P2[attackedPokemonIndex].Stats["Sp Def"])
+							P2_HP -= (P1_Damage - P2_Defense)
+						} else {
+							P1_Damage, _ := strconv.Atoi(pokeBalls_P1[currentPokemon].Stats["Attack"])
+							P2_Defense, _ := strconv.Atoi(pokeBalls_P2[attackedPokemonIndex].Stats["Defense"])
+							P2_HP -= (P1_Damage - P2_Defense)
+						}
+
+						if P2_HP <= 0 {
+							pokeBalls_P2 = append(pokeBalls_P2[:attackedPokemonIndex], pokeBalls_P2[attackedPokemonIndex+1:]...)
+						}
+
+						attackMsg := make(map[string]string)
+						sentAttackMsg, _ := json.Marshal(attackMsg)
+						CONNECTIONS[P1].Write([]byte(sentAttackMsg))
+					}
+				} else {
+
+				}
+
 			}
 
 		} else {
-
 			// iterate through connections
 			for name, connection := range CONNECTIONS {
 				name = strings.TrimSpace(name)
@@ -304,6 +356,7 @@ func HandleConnection(conn net.Conn) {
 								// start new routine for
 								// go battle(name, enemy_name)
 
+								fmt.Println(P1, " vs ", P2)
 							}
 
 							//remove previous location to make animation
@@ -314,19 +367,20 @@ func HandleConnection(conn net.Conn) {
 					}
 					if !battleStatus {
 						PLAYER_LOCATIONS[player_coord] = name
+						fmt.Println(PLAYER_LOCATIONS)
+						for _, tcpConn := range CONNECTIONS {
+							// if conn != tcpConn {
+							sentPLAYER_LOCATIONS, _ := json.Marshal(PLAYER_LOCATIONS)
+							tcpConn.Write([]byte(sentPLAYER_LOCATIONS))
+
+							// }
+						}
 					}
 				}
 			}
 
 			// Echo the message back to the client
-			fmt.Println(PLAYER_LOCATIONS)
-			for _, tcpConn := range CONNECTIONS {
-				// if conn != tcpConn {
-				sentPLAYER_LOCATIONS, _ := json.Marshal(PLAYER_LOCATIONS)
-				tcpConn.Write([]byte(sentPLAYER_LOCATIONS))
 
-				// }
-			}
 		}
 	}
 }

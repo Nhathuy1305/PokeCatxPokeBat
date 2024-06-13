@@ -294,6 +294,9 @@ func battle() {
 	}
 }
 
+var chosenPokemons []Pokemon
+var currentPokemon = 0
+
 // read from the server and print to console
 func readFromServer(conn net.Conn) {
 	// reader := bufio.NewReader(conn)
@@ -313,6 +316,8 @@ func readFromServer(conn net.Conn) {
 		checkError(err)
 		// fmt.Println("Server response: ", locations)
 
+		// fmt.Println("Message from server: ", locations)
+
 		for location, id := range locations {
 			location = strings.TrimSpace(location)
 			id = strings.TrimSpace(id)
@@ -320,25 +325,56 @@ func readFromServer(conn net.Conn) {
 			if location == "battle" {
 
 				if id == USERNAME {
-					//MY TURN
-					fmt.Println("hello")
-				} else {
-					displayDeck()
-					//enter pokemons for battling
-					var chosenPokemons []Pokemon
-					var pokemonName string
+					cmd := exec.Command("cmd", "/c", "cls")
+					cmd.Stdout = os.Stdout
+					cmd.Run()
 
+					fmt.Println("Your turn!")
+					fmt.Println("Alive Pokemons: ")
+					for i := 0; i < len(chosenPokemons); i++ {
+						fmt.Println(chosenPokemons[i].Name)
+					}
+					fmt.Println()
+					fmt.Println("You are choosing ", chosenPokemons[currentPokemon])
+					fmt.Println("Choose action: \"attack\" or \"switch\"")
+
+					fmt.Print("->")
+					var action string
+					fmt.Scanln(&action)
+
+					if action == "attack" {
+						conn.Write([]byte("battle-" + USERNAME + "-" + strconv.Itoa(currentPokemon) + "*" + "attack" + "\n"))
+					} else if action == "switch" {
+						conn.Write([]byte("battle-" + USERNAME + "-" + strconv.Itoa(currentPokemon) + "*" + "switch" + "\n"))
+					}
+				} else if id == "wait" {
+					cmd := exec.Command("cmd", "/c", "cls")
+					cmd.Stdout = os.Stdout
+					cmd.Run()
+
+					fmt.Println("It is opponent's turn. Please wait...")
+				} else {
+
+					displayDeck()
+					fmt.Println("You are battling against ", id)
+					//enter pokemons for battling
+
+					var pokemonName string
+					fmt.Println("Choose your Pokemons")
 					for {
-						fmt.Println("Choose your Pokemons")
+
 						fmt.Print("Name: ")
 						fmt.Scanln(&pokemonName)
-
+						exists := false
 						for pokeIndex := range pokeBalls {
 							if pokeBalls[pokeIndex].Name == pokemonName {
-								fmt.Println("exists")
+								exists = true
 								chosenPokemons = append(chosenPokemons, pokeBalls[pokeIndex])
 								conn.Write([]byte("battle-" + USERNAME + "-" + (pokeBalls[pokeIndex].ID + "\n")))
 							}
+						}
+						if !exists {
+							fmt.Println("Not available!")
 						}
 						if len(chosenPokemons) == 3 {
 							cmd := exec.Command("cmd", "/c", "cls")
@@ -349,17 +385,7 @@ func readFromServer(conn net.Conn) {
 					}
 
 					fmt.Println("Wait for your opponent to choose pokemons...")
-
-					// Read server's response
-					// message, err := reader.ReadString('\n')
-
-					DRAWBOARD_SIGNAL = true
-					drawBoard(BOARD)
-					/////
 				}
-
-				//send to server your move in battling
-				conn.Write([]byte("battle-" + strings.TrimSpace(id)))
 
 				DRAWBOARD_SIGNAL = false
 			} else {
