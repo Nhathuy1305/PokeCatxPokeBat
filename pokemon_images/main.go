@@ -20,24 +20,36 @@ func main() {
 		return
 	}
 
-	// Process the first 100 Pokémon images
+	seenIDs := make(map[string]bool) // Map to track seen IDs
+	pokemonCounter := 0              // Counter for the number of Pokémon processed
+
+	// Process the Pokémon entries
 	doc.Find("table.sortable tbody tr").EachWithBreak(func(i int, s *goquery.Selection) bool {
+		// The first row (i == 0) is typically headers in HTML tables
 		if i == 0 {
-			return true
+			return true // continue
 		}
-		if i > 100 {
-			return false
+
+		id := s.Find("td.r").Text() // Assuming the ID is in <td class="r">
+		if _, exists := seenIDs[id]; !exists {
+			seenIDs[id] = true
+
+			imgTag := s.Find("td a img")
+			src, exists := imgTag.Attr("src")
+			if exists {
+				pokemonCounter++ // Increment here just before downloading
+				fmt.Println("Downloading image:", src)
+				downloadImage(src, fmt.Sprintf("pokemon_%d.png", pokemonCounter))
+			} else {
+				fmt.Println("Image src not found for ID:", id)
+			}
 		}
-		imgTag := s.Find("td a img")
-		src, exists := imgTag.Attr("src")
-		if exists {
-			fmt.Println("Downloading image:", src)
-			downloadImage(src, fmt.Sprintf("pokemon_%d.png", i))
-		} else {
-			fmt.Println("Image src not found for index:", i)
-		}
-		return true
+		return true // continue processing until 100 unique Pokémon have been processed
 	})
+
+	if pokemonCounter >= 100 {
+		return // stop processing after 100 unique Pokémon
+	}
 }
 
 // fetchDocument fetches the page and returns a goquery document
