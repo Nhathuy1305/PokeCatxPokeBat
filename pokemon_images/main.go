@@ -10,7 +10,6 @@ import (
 )
 
 func main() {
-	// Starting URL
 	baseURL := "https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_by_effort_value_yield_(Generation_IX)"
 
 	// Fetch the document
@@ -21,13 +20,12 @@ func main() {
 	}
 
 	seenIDs := make(map[string]bool) // Map to track seen IDs
-	pokemonCounter := 0              // Counter for the number of Pokémon processed
+	pokemonCounter := 0              // Counter for the number of Pokemon processed
 
-	// Process the Pokémon entries
+	// Process the Pokemon entries
 	doc.Find("table.sortable tbody tr").EachWithBreak(func(i int, s *goquery.Selection) bool {
-		// The first row (i == 0) is typically headers in HTML tables
 		if i == 0 {
-			return true // continue
+			return true
 		}
 
 		id := s.Find("td.r").Text() // Assuming the ID is in <td class="r">
@@ -37,7 +35,7 @@ func main() {
 			imgTag := s.Find("td a img")
 			src, exists := imgTag.Attr("src")
 			if exists {
-				pokemonCounter++ // Increment here just before downloading
+				pokemonCounter++
 				fmt.Println("Downloading image:", src)
 				downloadImage(src, fmt.Sprintf("pokemon_%d.png", pokemonCounter))
 			} else {
@@ -47,8 +45,8 @@ func main() {
 		return true // continue processing until 100 unique Pokémon have been processed
 	})
 
-	if pokemonCounter >= 100 {
-		return // stop processing after 100 unique Pokémon
+	if pokemonCounter >= 200 {
+		return
 	}
 }
 
