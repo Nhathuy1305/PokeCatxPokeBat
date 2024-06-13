@@ -1,9 +1,10 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"math/rand"
 	"net"
 	"os"
@@ -28,42 +29,73 @@ type Player struct {
 	PokeBalls []Pokemon `json:"pokeBalls"`
 }
 
-func loadPlayers(filename string) ([]Player, error) {
+var POKEMONS []Pokemon
+
+// var exchangeMap = make(map[string]string)
+// var exchangeJSON []byte
+var MAP = make(map[string]string)
+
+var PLAYERS []Player //for authentication
+var ROWS, COLS = 10, 18
+var BOARD = make([][]string, ROWS)
+var CONNECTIONS = make(map[string]net.Conn)
+var despawnQueues []string
+var POKEMON_LOCATIONS = make(map[string]string)
+var PLAYER_LOCATIONS = make(map[string]string)
+
+var pokeBalls_P1 []Pokemon
+var pokeBalls_P2 []Pokemon
+
+var P1 string
+var P2 string
+
+// ////////////////////////////////////////////////////////////////////////////////////
+// Load players.json to PLAYERS
+func loadPlayers(filename string) []Player {
 	file, err := os.Open(filename)
 	if err != nil {
-		return nil, err
+		return nil
 	}
 	defer file.Close()
 
-	bytes, err := ioutil.ReadAll(file)
+	bytes, err := io.ReadAll(file)
 	if err != nil {
-		return nil, err
+		return nil
 	}
 
 	var players []Player
 	err = json.Unmarshal(bytes, &players)
 	if err != nil {
-		return nil, err
+		return nil
 	}
 
-	return players, nil
+	return players
 }
-
-func savePlayers(filename string, players []Player) error {
-	bytes, err := json.MarshalIndent(players, "", "  ")
+func isNumber(str string) bool {
+	_, err := strconv.Atoi(str)
+	return err == nil
+}
+func loadPokemons(filename string) []Pokemon {
+	file, err := os.Open(filename)
 	if err != nil {
-		return err
+		return nil
+	}
+	defer file.Close()
+
+	bytes, err := io.ReadAll(file)
+	if err != nil {
+		return nil
 	}
 
-	err = ioutil.WriteFile(filename, bytes, 0644)
+	var pokemons []Pokemon
+	err = json.Unmarshal(bytes, &pokemons)
 	if err != nil {
-		return err
+		return nil
 	}
 
-	return nil
+	return pokemons
 }
 func verifyPlayer(username, password string, players []Player) bool {
-
 	for _, user := range players {
 		if user.Username == username {
 			err := bcrypt.CompareHashAndPassword([]byte(user.Password), []byte(password))
@@ -72,91 +104,324 @@ func verifyPlayer(username, password string, players []Player) bool {
 	}
 	return false
 }
-func handleClient(conn *net.UDPConn, players []Player) {
-	//BUFFER DECLARATION
-	var buf [512]byte
+func generateRandomPokemons(num int) map[string]string {
+	pokemonLocations := make(map[string]string)
+	for range num {
+		for {
+			spawnX := rand.Intn(ROWS)
+			spawnY := rand.Intn(COLS)
+			if BOARD[spawnX][spawnY] == "" {
+				pokemonID := POKEMONS[rand.Intn(len(POKEMONS))].ID
 
-	//RESOLVE UDP ADDRESS
-	_, addr, err := conn.ReadFromUDP(buf[0:])
-	if err != nil {
-		return
+				BOARD[spawnX][spawnY] = pokemonID
+
+				despawnQueues = append(despawnQueues, strconv.Itoa(spawnX)+"-"+strconv.Itoa(spawnY))
+				pokemonLocations[strconv.Itoa(spawnX)+"-"+strconv.Itoa(spawnY)] = pokemonID
+				POKEMON_LOCATIONS[strconv.Itoa(spawnX)+"-"+strconv.Itoa(spawnY)] = pokemonID
+				break
+			}
+
+		}
+
 	}
+	return pokemonLocations
+}
 
-	//SEND DATE TIME TO USER
-	daytime := time.Now().String()
-	conn.WriteToUDP([]byte(daytime), addr)
+// ////////////////////////////////////////////////////////////////////////////////////
+func handlePokemons() {
+	spawnTicker1min := time.NewTicker(1 * time.Minute)
+	despawnTicker5min := time.NewTicker(5 * time.Minute)
+	NUMBERTOPROCESS := 3
+	for {
+		select {
+		case <-spawnTicker1min.C:
 
-	//READNAME
-	n, err := conn.Read(buf[0:])
-	if err != nil {
-		return
-	}
-	playerInfo := string(buf[0:n])
+			newPokemonLocations, err := json.Marshal(generateRandomPokemons(NUMBERTOPROCESS))
+			checkError(err)
 
-	// Split the input string by the delimiter "//"
-	parts := strings.Split(playerInfo, "//")
+			for _, tcpConn := range CONNECTIONS {
 
-	// Trim spaces, tabs, and newlines from each part
-	username := strings.TrimSpace(parts[0])
-	password := strings.TrimSpace(parts[1])
-	if verifyPlayer(username, password, players) {
-		fmt.Println(addr, "-", "\"", username, "\"", "-", "connected!")
+				tcpConn.Write([]byte(newPokemonLocations))
+
+			}
+		case <-despawnTicker5min.C:
+			despawnedPokemonLocations := make(map[string]string)
+			for i := 0; i < NUMBERTOPROCESS; i++ {
+				despawnedPokemonLocations[despawnQueues[i]] = ""
+			}
+			//CUT OFF THE FIRST 3 ELEMENTS or 50
+			despawnQueues = despawnQueues[NUMBERTOPROCESS:]
+			sent, _ := json.Marshal(despawnedPokemonLocations)
+			for _, tcpConn := range CONNECTIONS {
+				tcpConn.Write([]byte(sent))
+			}
+		}
 	}
 
 }
+func battle(player1 string, player2 string) {
+	fmt.Println(player1, " vs ", player2)
 
-func main() {
-	exchangeJSON := make(map[string]string)
-	rows, cols := 100, 100
-	//Initialize a board on client side
-	board := make([][]string, rows)
-	for i := range board {
-		board[i] = make([]string, cols)
-	}
+}
 
-	// Load pokemon.json
-	file, err := os.Open("pokedex.json")
-	if err != nil {
-		fmt.Println("Error:", err)
-		return
-	}
-	defer file.Close()
+// HandleConnection handles incoming client connections
+func HandleConnection(conn net.Conn) {
 
-	// Decode the JSON data into an array of Pokemon structs
-	var pokemons []Pokemon
-	decoder := json.NewDecoder(file)
-	if err := decoder.Decode(&pokemons); err != nil {
-		fmt.Println("Error:", err)
-		return
-	}
-	//randomize 50 pokemons
+	defer conn.Close()
 
-	for range 50 {
-		newPokemonId := rand.Intn(len(pokemons)) + 1
-		spawnX := rand.Intn(rows)
-		spawnY := rand.Intn(cols)
-		board[spawnX][spawnY] = strconv.Itoa(newPokemonId)
-
-		exchangeJSON[strconv.Itoa(spawnX)+"-"+strconv.Itoa(spawnY)] = strconv.Itoa(newPokemonId)
-	}
-
-	fmt.Println(board)
-
-	//LOAD players.json for verification
-	players, err := loadPlayers("players.json")
-	if err != nil {
-		fmt.Println("Error loading users:", err)
-		return
-	}
-	service := ":1200"
-	udpAddr, err := net.ResolveUDPAddr("udp", service)
-	checkError(err)
-
-	conn, err := net.ListenUDP("udp", udpAddr)
-	checkError(err)
-
+	// Create a reader to read data from the connection
+	reader := bufio.NewReader(conn)
 	for {
-		handleClient(conn, players)
+		battleStatus := false
+		// Read data from the connection
+		player_coord, err := reader.ReadString('\n')
+		fmt.Println("message: ", player_coord)
+
+		player_coord = strings.TrimSpace(player_coord)
+
+		//DISCONNECTED
+		if err != nil {
+			for name, connection := range CONNECTIONS {
+				//tim connection hien tai
+				if connection == conn {
+					// tim ten
+					for location, player := range PLAYER_LOCATIONS {
+						if player == name {
+							delete(PLAYER_LOCATIONS, location)
+						}
+					}
+					delete(CONNECTIONS, name)
+					quit := make(map[string]string)
+					quit[strings.TrimSpace(name)] = "quit"
+					sentQuit, _ := json.Marshal(quit)
+					for _, connection := range CONNECTIONS {
+
+						connection.Write([]byte(sentQuit))
+					}
+					fmt.Println(strings.TrimSpace(name) + " is disconnected")
+					break
+
+				}
+
+			}
+			return
+
+		}
+		//battling message
+		if strings.Split(player_coord, "-")[0] == "battle" {
+			P := strings.Split(player_coord, "-")[1]
+			main_message := strings.Split(player_coord, "-")[2]
+			turn := make(map[string]string)
+			//submit pokemons
+			if isNumber(main_message) {
+				fmt.Println("Submitting pokemon...")
+				pokeId := main_message
+				for pokeIndex := 0; pokeIndex < len(POKEMONS); pokeIndex++ {
+					if POKEMONS[pokeIndex].ID == pokeId {
+						if P == P1 {
+							pokeBalls_P1 = append(pokeBalls_P1, POKEMONS[pokeIndex])
+						} else if P == P2 {
+							pokeBalls_P2 = append(pokeBalls_P2, POKEMONS[pokeIndex])
+						}
+						break
+					}
+
+				}
+
+				if len(pokeBalls_P1) == 3 && len(pokeBalls_P2) == 3 {
+					fmt.Println("Let's Battle!")
+					CONNECTIONS[P1].Write([]byte("ready"))
+					CONNECTIONS[P2].Write([]byte("ready"))
+					speed_P1, _ := strconv.Atoi(pokeBalls_P1[0].Stats["Speed"])
+					speed_P2, _ := strconv.Atoi(pokeBalls_P2[0].Stats["Speed"])
+					if speed_P1 >= speed_P2 {
+						//sent message to p1 to go first
+						turn["battle"] = P1
+					} else {
+						//sent message to p2 to go first
+						turn["battle"] = P2
+					}
+				}
+			}
+
+		} else {
+
+			// iterate through connections
+			for name, connection := range CONNECTIONS {
+				name = strings.TrimSpace(name)
+				// find matching name
+				if connection == conn {
+					//find the name corresponding to connection address
+					for playerLocation, player := range PLAYER_LOCATIONS {
+						player = strings.TrimSpace(player)
+						if player == name {
+
+							//if player hits pokemon location
+							if pokemonIndex, exists := POKEMON_LOCATIONS[strings.TrimSpace(player_coord)]; exists {
+								fmt.Println("CATCHING...")
+								//send pokemon id to the player through "conn"
+								// catched: "index"
+								catched := make(map[string]string)
+								catched[strings.TrimSpace(name)] = pokemonIndex
+
+								sentCatched, _ := json.Marshal(catched)
+								conn.Write(sentCatched)
+								//remove location of the pokemon from BOARD and POKEMON_LOCATIONS
+								pokemonX, _ := strconv.Atoi(strings.Split(playerLocation, "-")[0])
+								pokemonY, _ := strconv.Atoi(strings.Split(playerLocation, "-")[1])
+								BOARD[pokemonX][pokemonY] = ""
+								delete(POKEMON_LOCATIONS, strings.TrimSpace(player_coord))
+								fmt.Println(POKEMON_LOCATIONS)
+								for _, tcpConn := range CONNECTIONS {
+									if tcpConn != conn {
+										pokemonGone := make(map[string]string)
+										pokemonGone[strings.TrimSpace(player_coord)] = ""
+										sentPokemonGone, _ := json.Marshal(pokemonGone)
+										tcpConn.Write([]byte(sentPokemonGone))
+									}
+								}
+							} else if enemy_name, exists := PLAYER_LOCATIONS[strings.TrimSpace(player_coord)]; exists {
+								enemy_name = strings.TrimSpace(enemy_name)
+								//BATTLE
+								fmt.Println("battle")
+								//send battle noti to player
+								battleInfo := make(map[string]string)
+								battleInfo["battle"] = enemy_name
+								sentBattleInfo, _ := json.Marshal(battleInfo)
+								conn.Write([]byte(sentBattleInfo))
+
+								//send to the enemy
+								battledInfo := make(map[string]string)
+								battledInfo["battle"] = name
+								sentBattledInfo, _ := json.Marshal(battledInfo)
+								CONNECTIONS[enemy_name].Write([]byte(sentBattledInfo))
+
+								battleStatus = true
+								pokeBalls_P1 = []Pokemon{}
+								pokeBalls_P2 = []Pokemon{}
+								P1 = name
+								P2 = enemy_name
+								// start new routine for
+								// go battle(name, enemy_name)
+
+							}
+
+							//remove previous location to make animation
+							if !battleStatus {
+								delete(PLAYER_LOCATIONS, playerLocation)
+							}
+						}
+					}
+					if !battleStatus {
+						PLAYER_LOCATIONS[player_coord] = name
+					}
+				}
+			}
+
+			// Echo the message back to the client
+			fmt.Println(PLAYER_LOCATIONS)
+			for _, tcpConn := range CONNECTIONS {
+				// if conn != tcpConn {
+				sentPLAYER_LOCATIONS, _ := json.Marshal(PLAYER_LOCATIONS)
+				tcpConn.Write([]byte(sentPLAYER_LOCATIONS))
+
+				// }
+			}
+		}
+	}
+}
+func handle(conn net.Conn) {
+	// Verfify username and password
+	infoReader := bufio.NewReader(conn)
+
+	// Get username
+	username, err := infoReader.ReadString('\n')
+	checkError(err)
+
+	// Get password
+	password, err := infoReader.ReadString('\n')
+	checkError(err)
+
+	if verifyPlayer(strings.TrimSpace(username), strings.TrimSpace(password), PLAYERS) {
+		// Handle the connection in a new goroutine
+		_, err := conn.Write([]byte("successful"))
+		initialPokemons := ""
+		for i := range 3 {
+			initialPokemons += strconv.Itoa(rand.Intn(len(POKEMONS)))
+			if i < 2 {
+				initialPokemons += "-"
+			}
+		}
+		conn.Write([]byte(initialPokemons))
+		checkError(err)
+		time.Sleep(22 * time.Second)
+		CONNECTIONS[strings.TrimSpace(username)] = conn
+		fmt.Println(CONNECTIONS)
+
+		//send pokemon locations
+		sentPOKEMON_LOCATIONS, _ := json.Marshal(POKEMON_LOCATIONS)
+		conn.Write([]byte(sentPOKEMON_LOCATIONS))
+		for {
+			playerX := rand.Intn(ROWS)
+			playerY := rand.Intn(COLS)
+			if BOARD[playerX][playerY] == "" {
+				BOARD[playerX][playerY] = username
+				PLAYER_LOCATIONS[strconv.Itoa(playerX)+"-"+strconv.Itoa(playerY)] = username
+
+				// ini_coord := make(map[string]string)
+				// ini_coord[strconv.Itoa(playerX)+"-"+strconv.Itoa(playerY)] = username
+
+				// //send initial player's location
+				// sentInital_Coord, _ := json.Marshal(ini_coord)
+				// conn.Write([]byte(sentInital_Coord))
+				break
+			}
+		}
+
+		//send player locations
+		sentPLAYER_LOCATIONS, _ := json.Marshal(PLAYER_LOCATIONS)
+		for _, connection := range CONNECTIONS {
+			connection.Write([]byte(sentPLAYER_LOCATIONS))
+		}
+
+		go HandleConnection(conn)
+	} else {
+		conn.Write([]byte("failed"))
+	}
+}
+func main() {
+	// Set up BOARD
+	for i := range BOARD {
+		BOARD[i] = make([]string, COLS)
+	}
+	// Load pokemon.json to array POKEMONS
+	POKEMONS = loadPokemons("pokedex.json")
+
+	//Load players.json to array PLAYERS
+	PLAYERS = loadPlayers("players.json")
+	generateRandomPokemons(3)
+	fmt.Println(POKEMON_LOCATIONS)
+	go handlePokemons()
+
+	// Start listening for incoming connections on port 8080
+	listener, err := net.Listen("tcp", ":8080")
+	if err != nil {
+		fmt.Println("Error starting server:", err)
+		os.Exit(1)
+	}
+	defer listener.Close()
+
+	fmt.Println("Server is listening on port 8080")
+
+	/// spawn pokem
+	for {
+		// Accept an incoming connection
+		conn, err := listener.Accept()
+		if err != nil {
+			fmt.Println("Error accepting connection:", err)
+			continue
+		}
+		go handle(conn)
 	}
 }
 
