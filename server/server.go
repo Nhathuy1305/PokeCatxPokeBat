@@ -286,10 +286,10 @@ func HandleConnection(conn net.Conn) {
 						if P2_HP <= 0 {
 							pokeBalls_P2 = append(pokeBalls_P2[:attackedPokemonIndex], pokeBalls_P2[attackedPokemonIndex+1:]...)
 						}
-						
+
 						attackMsg := make(map[string]string)
 						sentAttackMsg, _ := json.Marshal(attackMsg)
-						
+
 						CONNECTIONS[P1].Write([]byte(sentAttackMsg))
 					}
 				} else {
