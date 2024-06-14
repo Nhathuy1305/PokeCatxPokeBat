@@ -268,7 +268,7 @@ func HandleConnection(conn net.Conn) {
 				if player1Turn {
 					if action == "attack" {
 						attackedPokemonIndex := rand.Intn(3)
-
+						fmt.Println("attack")
 						P2_HP, _ := strconv.Atoi(pokeBalls_P2[attackedPokemonIndex].Stats["HP"])
 
 						spec_attk := rand.Intn(1)
@@ -288,12 +288,41 @@ func HandleConnection(conn net.Conn) {
 						}
 
 						attackMsg := make(map[string]string)
+
+						attackMsg["battle"] = "attacked-" + strconv.Itoa(P2_HP) + "-" + strconv.Itoa(attackedPokemonIndex)
+						sentAttackMsg, _ := json.Marshal(attackMsg)
+
+						CONNECTIONS[P2].Write([]byte(sentAttackMsg))
+					}
+				} else {
+					if action == "attack" {
+						attackedPokemonIndex := rand.Intn(3)
+						fmt.Println("attack")
+						P2_HP, _ := strconv.Atoi(pokeBalls_P1[attackedPokemonIndex].Stats["HP"])
+
+						spec_attk := rand.Intn(1)
+
+						if spec_attk == 1 {
+							P1_Damage, _ := strconv.Atoi(pokeBalls_P2[currentPokemon].Stats["Sp Atk"])
+							P2_Defense, _ := strconv.Atoi(pokeBalls_P1[attackedPokemonIndex].Stats["Sp Def"])
+							P2_HP -= (P1_Damage - P2_Defense)
+						} else {
+							P1_Damage, _ := strconv.Atoi(pokeBalls_P2[currentPokemon].Stats["Attack"])
+							P2_Defense, _ := strconv.Atoi(pokeBalls_P1[attackedPokemonIndex].Stats["Defense"])
+							P2_HP -= (P1_Damage - P2_Defense)
+						}
+
+						if P2_HP <= 0 {
+							pokeBalls_P1 = append(pokeBalls_P2[:attackedPokemonIndex], pokeBalls_P2[attackedPokemonIndex+1:]...)
+						}
+
+						attackMsg := make(map[string]string)
+
+						attackMsg["battle"] = "attacked-" + strconv.Itoa(P2_HP) + "-" + strconv.Itoa(attackedPokemonIndex)
 						sentAttackMsg, _ := json.Marshal(attackMsg)
 
 						CONNECTIONS[P1].Write([]byte(sentAttackMsg))
 					}
-				} else {
-
 				}
 
 			}

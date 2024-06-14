@@ -323,8 +323,17 @@ func readFromServer(conn net.Conn) {
 			id = strings.TrimSpace(id)
 			//battle
 			if location == "battle" {
+				if strings.Split(id, "-")[0] == "attacked" {
+					fmt.Println("attacked")
+					HP, _ := strconv.Atoi(strings.Split(id, "-")[1])
+					index, _ := strconv.Atoi(strings.TrimSpace(strings.Split(id, "-")[1]))
 
-				if id == USERNAME {
+					if HP == 0 {
+						chosenPokemons = append(chosenPokemons[:index], chosenPokemons[index+1:]...)
+					} else {
+						chosenPokemons[index].Stats["HP"] = strings.Split(id, "-")[1]
+					}
+				} else if id == USERNAME {
 					cmd := exec.Command("cmd", "/c", "cls")
 					cmd.Stdout = os.Stdout
 					cmd.Run()
