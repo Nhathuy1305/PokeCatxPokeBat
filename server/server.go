@@ -271,7 +271,7 @@ func HandleConnection(conn net.Conn) {
 						fmt.Println("attack")
 						P2_HP, _ := strconv.Atoi(pokeBalls_P2[attackedPokemonIndex].Stats["HP"])
 
-						spec_attk := rand.Intn(1)
+						spec_attk := rand.Intn(2)
 
 						if spec_attk == 1 {
 							P1_Damage, _ := strconv.Atoi(pokeBalls_P1[currentPokemon].Stats["Sp Atk"])
@@ -322,6 +322,9 @@ func HandleConnection(conn net.Conn) {
 						sentAttackMsg, _ := json.Marshal(attackMsg)
 
 						CONNECTIONS[P1].Write([]byte(sentAttackMsg))
+					}
+					if action == "switch" {
+
 					}
 				}
 

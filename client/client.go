@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"image/jpeg"
@@ -312,7 +313,7 @@ func readFromServer(conn net.Conn) {
 		// Print the message from the server
 		var locations map[string]string
 
-		err = json.Unmarshal(buf[:n], &locations)
+		err = json.Unmarshal(bytes.TrimSpace(buf[:n]), &locations)
 		checkError(err)
 		// fmt.Println("Server response: ", locations)
 
@@ -326,7 +327,7 @@ func readFromServer(conn net.Conn) {
 				if strings.Split(id, "-")[0] == "attacked" {
 					fmt.Println("attacked")
 					HP, _ := strconv.Atoi(strings.Split(id, "-")[1])
-					index, _ := strconv.Atoi(strings.TrimSpace(strings.Split(id, "-")[1]))
+					index, _ := strconv.Atoi(strings.TrimSpace(strings.Split(id, "-")[2]))
 
 					if HP == 0 {
 						chosenPokemons = append(chosenPokemons[:index], chosenPokemons[index+1:]...)
@@ -345,7 +346,7 @@ func readFromServer(conn net.Conn) {
 					}
 					fmt.Println()
 					fmt.Println("You are choosing ", chosenPokemons[currentPokemon])
-					fmt.Println("Choose action: \"attack\" or \"switch\"")
+					fmt.Println("Choose action: \"attack\" or \"switch [name]\"")
 
 					fmt.Print("->")
 					var action string
@@ -354,8 +355,10 @@ func readFromServer(conn net.Conn) {
 					if action == "attack" {
 						conn.Write([]byte("battle-" + USERNAME + "-" + strconv.Itoa(currentPokemon) + "*" + "attack" + "\n"))
 					} else if action == "switch" {
+						// for
 						conn.Write([]byte("battle-" + USERNAME + "-" + strconv.Itoa(currentPokemon) + "*" + "switch" + "\n"))
 					}
+
 				} else if id == "wait" {
 					cmd := exec.Command("cmd", "/c", "cls")
 					cmd.Stdout = os.Stdout
