@@ -1,0 +1,115 @@
+[
+    {
+        "username":"huuhiep",
+        "password":"$2a$10$ZOz/iJR9qj7EjIbUIw66p.FZ9qHZ3vJutffxk1AC/dwcerA61O736",
+        "pokeBalls": [
+            {
+                "id": "1",
+                "name": "Bulbasaur",
+                "types": [
+                  "grass",
+                  "poison"
+                ],
+                "stats": {
+                  "Attack": "49",
+                  "Defense": "49",
+                  "HP": "45",
+                  "Sp Atk": "65",
+                  "Sp Def": "65",
+                  "Speed": "45"
+                },
+                "exp": "64"
+              },
+              {
+                "id": "8",
+                "name": "Wartortle",
+                "types": [
+                  "water"
+                ],
+                "stats": {
+                  "Attack": "63",
+                  "Defense": "80",
+                  "HP": "59",
+                  "Sp Atk": "65",
+                  "Sp Def": "80",
+                  "Speed": "58"
+                },
+                "exp": "142"
+              },
+              {
+                "id": "12",
+                "name": "Butterfree",
+                "types": [
+                  "bug",
+                  "flying"
+                ],
+                "stats": {
+                  "Attack": "45",
+                  "Defense": "50",
+                  "HP": "60",
+                  "Sp Atk": "90",
+                  "Sp Def": "80",
+                  "Speed": "70"
+                },
+                "exp": "198"
+              }
+        ]
+    },
+    {
+      "username":"nhathuy",
+      "password":"$2a$10$JjLGwyO0F3awf0nk9Db0Wu1h2zvPyzkuN9JV/Fy78ZCWBl.DD52bq",
+      "pokeBalls": [
+        {
+          "id": "2",
+          "name": "Ivysaur",
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "stats": {
+            "Attack": "62",
+            "Defense": "63",
+            "HP": "60",
+            "Sp Atk": "80",
+            "Sp Def": "80",
+            "Speed": "60"
+          },
+          "exp": "142"
+        },
+        {
+          "id": "18",
+          "name": "Pidgeot",
+          "types": [
+            "flying",
+            "normal"
+          ],
+          "stats": {
+            "Attack": "80",
+            "Defense": "75",
+            "HP": "83",
+            "Sp Atk": "70",
+            "Sp Def": "70",
+            "Speed": "101"
+          },
+          "exp": "240"
+        },
+        {
+          "id": "24",
+          "name": "Arbok",
+          "types": [
+            "poison"
+          ],
+          "stats": {
+            "Attack": "85",
+            "Defense": "69",
+            "HP": "60",
+            "Sp Atk": "65",
+            "Sp Def": "79",
+            "Speed": "80"
+          },
+          "exp": "157"
+        }
+      ]
+  }
+]
+
